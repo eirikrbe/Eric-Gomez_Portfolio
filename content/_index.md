@@ -11,6 +11,7 @@ sections:
     id: hero
     content:
       username: me
+      avatar: /assets/media/authors/eric-gomez.jpg
       greeting: "Hi, I'm"
       show_status: true
       show_scroll_indicator: true
