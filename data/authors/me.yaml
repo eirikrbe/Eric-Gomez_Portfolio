@@ -5,7 +5,7 @@ name:
   display: Eric Gómez
   given: Eric
   family: Gómez
-image: /assets/media/authors/eric-gomez.jpg
+avatar: /assets/media/authors/eric-gomez.jpg
 postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
