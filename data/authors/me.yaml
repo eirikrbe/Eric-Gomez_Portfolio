@@ -1,0 +1,163 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Eric Gómez
+  given: Eric
+  family: Gómez
+avatar: /assets/media/authors/eric-gomez.jpg
+postnominals: []
+status:
+  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
+role: Electronics & Software Engineer
+email: ericfabian10@gmail.com
+bio: |
+  Electronics and Software Engineer with experience in RF optimisation, network quality assurance, and full-stack Python development. Currently enrolled in a Master of Software Engineering. Skilled at building reliable, testable systems and translating telecom domain knowledge into software solutions.
+
+
+affiliations:
+  - name: Yoobee College of Creative Innovation
+    url: https://yoobee.ac.nz
+  - name: Cundinamarca University
+    url: https://www.ucundinamarca.edu.co
+
+links:
+  - icon: at-symbol
+    url: mailto:ericfabian10@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/eirikrbe
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/eirikrgomez
+  - icon: globe
+    url: https://eirikrbe.github.io/Eric-Gomez_Portfolio/
+    label: Portfolio
+
+interests:
+  - Electronics
+  - RF optimisation
+  - Software Engineering
+  - Machine Learning
+  - DevOps
+
+education:
+  - degree: Master of Software Engineering
+    institution: Yoobee College of Creative Innovation, Auckland, New Zealand
+    start: 2026-01-01
+    end: 2027-04-04
+    summary: |
+      Master-level coursework in software engineering. Expected completion 4 April 2027. NZQA Level 9.
+  - degree: Bachelor of Electronic Engineering
+    institution: Cundinamarca University, Colombia
+    start: 2013-01-01
+    end: 2017-12-31
+    summary: |
+      Undergraduate degree in Electronic Engineering (assessed by NZQA as Level 7 equivalent).
+
+experience:
+  - role: Quality Assurance Engineer
+    org: Claro (Colombia)
+    start: 2019-10-01
+    end: 2022-11-30
+    summary: |
+      Coordinated quality assurance for mobile network projects across Nokia, Ericsson and Huawei.
+      Designed, supervised and executed test cases in test and production; investigated faults, analysed network data, and produced reports used for operational decisions.
+  - role: Network Engineer
+    org: Nokia Networks (Colombia)
+    start: 2017-03-01
+    end: 2019-10-01
+    summary: |
+      Roles included QA-NOC Engineer, RF Junior Engineer, and RAN Back Office Engineer.
+      Monitored GSM, UMTS and LTE network performance and KPIs; supported LTE second-carrier projects with parametrisation and configuration creation; provided remote support for alarms, performance issues and RF optimisation.
+  - role: Duty Manager
+    org: Cāntīng by Nic Watt, Auckland
+    start: 2025-08-01
+    end: 2026-06-01
+    summary: |
+      LCQ-certified licence controller; ran shifts, performed cash reconciliation and end-of-day reporting in a fine-dining venue.
+  - role: Front of House
+    org: CBK, Rotorua
+    start: 2023-06-01
+    end: 2025-06-01
+    summary: |
+      Server, barman and barista duties; trained new staff and managed service sections during peak periods.
+
+skills:
+  - name: Programming & Data
+    items:
+      - label: Python
+        level: 5
+      - label: SQL
+        level: 4
+      - label: C/C++
+        level: 4
+      - label: MATLAB
+        level: 3
+      - label: LaTeX
+        level: 3
+  - name: Web & Dev
+    items:
+      - label: Flask
+        level: 4
+      - label: Docker
+        level: 4
+      - label: PostgreSQL
+        level: 4
+      - label: psycopg3
+        level: 3
+      - label: pytest
+        level: 3
+      - label: pylint
+        level: 3
+  - name: Telecom & Tools
+    items:
+      - label: RF optimisation
+        level: 4
+      - label: KPI analysis
+        level: 4
+      - label: NetAct
+        level: 3
+      - label: NetChart
+        level: 3
+      - label: PuTTY
+        level: 3
+      - label: Remedy / Maximo
+        level: 3
+  - name: Office
+    items:
+      - label: Excel
+        level: 4
+      - label: Google Workspace
+        level: 4
+
+languages:
+  - name: Spanish
+    level: 5
+    label: Native
+  - name: English
+    level: 4
+    label: Professional
+
+awards: []
+
+certifications:
+  - name: Licence Controller Qualification (LCQ)
+    issuer: ServiceIQ, New Zealand
+    year: 2025
+  - name: NZ Certificate in English Language (NZCEL) Level 5
+    issuer: Seafield English School
+    year: 2025
+
+projects:
+  - name: Ako-Kupu
+    summary: |
+      A Te Reo Māori flashcard and learner progress web application (team project for MSE800).
+      Includes an AI learning layer using the Google Gemini API; app runs without an API key with AI features degraded.
+    tech: Flask, Neon PostgreSQL, psycopg3, Google Gemini API, Docker, Render, pytest, Pylint
+    live: https://ako-kupu.onrender.com
+    repo: https://github.com/eirikrbe/Ako-Kupu
+  - name: Car Rental System with VIN-Locked Smart Reservation
+    summary: |
+      CLI car rental management system with a VIN-locking reservation mechanism and a weighted vehicle confidence score to avoid double bookings.
+    tech: Python 3.10+, SQLite, bcrypt
+    repo: https://github.com/eirikrbe/Car_Rental_System_VIN-Locked

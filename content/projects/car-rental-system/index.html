@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Car Rental System with VIN-Locked Reservations | Eric-Gomez_Portfolio</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Car Rental System with VIN-Locked Reservations" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://eirikrbe.github.io/Eric-Gomez_Portfolio/content/projects/car-rental-system/" />
+<meta property="og:url" content="https://eirikrbe.github.io/Eric-Gomez_Portfolio/content/projects/car-rental-system/" />
+<meta property="og:site_name" content="Eric-Gomez_Portfolio" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-04-01T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Car Rental System with VIN-Locked Reservations" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-04-01T00:00:00+00:00","datePublished":"2026-04-01T00:00:00+00:00","headline":"Car Rental System with VIN-Locked Reservations","mainEntityOfPage":{"@type":"WebPage","@id":"https://eirikrbe.github.io/Eric-Gomez_Portfolio/content/projects/car-rental-system/"},"url":"https://eirikrbe.github.io/Eric-Gomez_Portfolio/content/projects/car-rental-system/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/Eric-Gomez_Portfolio/assets/css/style.css?v=db0b41ffebe6ad2131d0c1ce7b77c9d21c0b1602">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/Eric-Gomez_Portfolio/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://eirikrbe.github.io/Eric-Gomez_Portfolio/">Eric-Gomez_Portfolio</a></h1>
+      
+
+      <p>A command-line car rental management system built solo for MSE800 (object-oriented programming) at Yoobee College. Customers register, book and cancel; admins manage the fleet and the full booking lifecycle.</p>
+
+<h2 id="the-interesting-part">The interesting part</h2>
+
+<p>Two mechanisms make this more than a CRUD exercise:</p>
+
+<ul>
+  <li><strong>VIN-locking</strong> — while a booking is pending, the vehicle’s VIN is locked so no conflicting reservation can be created against the same car.</li>
+  <li><strong>Vehicle confidence score</strong> — a weighted rating (booking reliability 40%, mileage 25%, age 20%, conflict history 15%) that helps users judge how dependable a vehicle is before they book it.</li>
+</ul>
+
+<h2 id="how-its-built">How it’s built</h2>
+
+<ul>
+  <li><strong>Python 3.10+</strong> with a layered structure: CLI, services, models, and database queries kept separate</li>
+  <li><strong>SQLite</strong> for storage</li>
+  <li><strong>bcrypt</strong> for password hashing</li>
+  <li>A factory for user creation, plus seeded demo data for easy exploration</li>
+</ul>
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/eirikrbe/Eric-Gomez_Portfolio/edit/main/content/projects/car-rental-system/index.md">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
