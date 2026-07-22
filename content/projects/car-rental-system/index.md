@@ -1,7 +1,7 @@
 ---
 title: "Car Rental System with VIN-Locked Reservations"
 date: 2026-04-01
-summary: "Command-line rental management system whose VIN-locking mechanism prevents conflicting reservations, with a weighted vehicle confidence score"
+summary: "Rental operators lose revenue to double-bookings — this CLI system locks each reservation to a specific VIN to prevent conflicts by design, and rates fleet reliability with a weighted confidence score"
 tags:
   - Backend
   - Python

@@ -1,7 +1,7 @@
 ---
 title: "Ako-Kupu — Te Reo Māori Learning App"
 date: 2026-06-01
-summary: "Flashcard and learner-progress web app for Te Reo Māori, with an AI learning layer that degrades gracefully when no API key is present"
+summary: "Learners need low-friction practice to retain Te Reo Māori vocabulary — this flashcard and progress-tracking web app adds an AI learning layer that degrades gracefully so the core stays available even without an API key"
 tags:
   - Full-Stack
   - Python

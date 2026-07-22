@@ -88,31 +88,39 @@ sections:
         - name: Web & Backend
           items:
             - name: Flask
-              icon: devicon/python
+              icon: devicon/flask
+            - name: REST APIs
+              icon: hero/arrows-right-left
             - name: PostgreSQL
               icon: devicon/postgresql
             - name: SQLite
               icon: devicon/sqlite
             - name: psycopg3
               icon: brands/python
+            - name: pytest
+              icon: devicon/pytest
         - name: Telecom & Tools
           items:
             - name: RF optimisation
-              icon: solid/signal
+              icon: hero/signal
             - name: NetAct
-              icon: solid/server
+              icon: hero/server-stack
             - name: PuTTY
-              icon: solid/terminal
+              icon: hero/command-line
             - name: KPI analysis
-              icon: solid/chart-line
-        - name: DevOps & Office
+              icon: hero/chart-bar
+        - name: DevOps & Collaboration
           items:
             - name: Docker
               icon: devicon/docker
             - name: Git
               icon: brands/github
-            - name: Excel
-              icon: brands/microsoft
+            - name: Linux
+              icon: devicon/linux
+            - name: Jira
+              icon: devicon/jira
+            - name: Confluence
+              icon: devicon/confluence
             - name: Google Workspace
               icon: brands/google
     design:
@@ -210,6 +218,12 @@ sections:
         QA engineering, or anything that bridges hardware and software.
         
         Let's connect and talk about how I can help your team.
+      button:
+        text: "Download CV"
+        # URL includes the /Eric-Gomez_Portfolio/ base path because this theme
+        # emits the button href raw (no Hugo URL processing). File lives at static/uploads/cv.pdf.
+        url: "/Eric-Gomez_Portfolio/uploads/cv.pdf"
+        icon: "hero/arrow-down-tray"
     design:
       card:
         # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
