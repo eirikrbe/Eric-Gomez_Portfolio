@@ -27,8 +27,6 @@ links:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/eirikrbe
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/eirikrgomez
   - icon: globe
     url: https://eirikrbe.github.io/Eric-Gomez_Portfolio/
     label: Portfolio
