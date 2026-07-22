@@ -219,11 +219,13 @@ sections:
         
         Let's connect and talk about how I can help your team.
       button:
-        text: "Download CV"
-        # URL includes the /Eric-Gomez_Portfolio/ base path because this theme
-        # emits the button href raw (no Hugo URL processing). File lives at static/uploads/cv.pdf.
-        url: "/Eric-Gomez_Portfolio/uploads/cv.pdf"
-        icon: "hero/arrow-down-tray"
+        text: "View CV"
+        # Branded viewer page (content/cv.md + layouts/cv/single.html) — inherits the
+        # site favicon/title. URL includes the /Eric-Gomez_Portfolio/ base path because
+        # this theme emits the button href raw (no Hugo URL processing).
+        url: "/Eric-Gomez_Portfolio/cv/"
+        new_tab: true
+        icon: "hero/document-text"
     design:
       card:
         # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
